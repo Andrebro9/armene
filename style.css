@@ -2,14 +2,12 @@ body {
     margin: 0;
 }
 
-.our-services .our-left,
-.our-services .our-raght {
-
+* {
+    margin: 0;
 }
 
 .our-services .our-left {
     margin-top: 60px;
-    margin-left: 200px;
     color: red;
     display: flex;
 }
@@ -19,38 +17,41 @@ body {
     /*margin-top: 60px;*/
 }
 
+
+
+
 .our-services .our-raght .fabulous-weddings,
+.our-services .our-raght .block,
 .our-services .our-raght .birthday-parties,
 .our-services .our-raght .shagun-ceremony,
 .our-services .our-raght .view-all {
     margin-bottom: 60px;
     display: flex;
 
+    padding-bottom: 60px;
+    border-bottom: solid .5px black;
 }
 
 .our-services .our-raght .text-1 {
     margin-left: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.our-services .our-raght .fabulous-weddings {
-
-}
-
-.our-services .our-raght .birthday-parties {
-}
-
-.our-services .our-raght .shagun-ceremony {
+.our-services > .container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .our-services .our-raght .roy {
-    border: solid 1px black;
+    border: solid 0.5px black;
     display: flex;
     margin-bottom: 60px;
 }
 
 
-.our-services .our-raght .view-all{
-}
 
 .about {
     width: 100%;
@@ -86,8 +87,7 @@ body {
     margin-left: 0px;
 }
 
-.about .container .col-right .button,
-.our-services .our-raght .button {
+.button {
     border: solid goldenrod 1px;
     border-radius: 50%;
     width: 100px;
@@ -97,8 +97,7 @@ body {
     align-items: center;
 }
 
-.about .container .col-right .stick,
-.our-services .our-raght .stick {
+.stick {
     height: 100px;
     width: 50px;
     border-right: solid black 1px;
@@ -109,15 +108,44 @@ body {
     margin-bottom: 50px;
 }
 
+.media-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.top {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
 
+.our-team {
+    margin-top: 100px;
+}
 
+.ourteam {
+    width: 50%;
 
+}
 
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.button-block {
+    margin-top: 100px;
+    margin-left: 950px;
+}
 
-
-
+.ourteam {
+    color: red;
+}
 
 
 
